@@ -1,3 +1,4 @@
+  // User Iterface
   var result;
   $(document).ready(function(){
   $('form#pingpong').submit(function(event){
@@ -9,6 +10,7 @@
   });
   });
 
+// Business Logic
   function React(){
      for(var counter=1;counter<=result;counter++){
         if(counter % 15==0){
